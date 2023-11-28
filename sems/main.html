@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let subjects=[ 
+    {
+      name: 'COMPUTER NETWORKS',
+      id:'courses2',
+      assets: {
+                     SYLLABUS: {
+                        name:'Syllabus',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN SYLLABUS HERE',
+                        link:'https://drive.google.com/file/d/1bPhMXgTWTta5jFL8xda4wmQO7CFs3r7t/view?usp=drive_link'
+                      },
+                    PREVIOUSPAPERS: {
+                        name:'PREVIOUS PAPERS',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN PREVIOUS HERE',
+                        link:'https://drive.google.com/file/d/1_MJ3MZgca326mT4kOfef05cQZfbP_2nC/view?usp=sharing'
+                      },
+                     IMP: {
+                        name:'IMPORTANT QUESTIONS',
+                        des:'DOWNLOAD JNTU ANANRAPUR R20 CN IMPORTANT QUESTIONS HERE',
+                        link:'https://drive.google.com/file/d/1dCl96MghP9yMf6GhBM7uJ1NWe4BaQ6_n/view?usp=sharing'
+                      },
+                    JNTUM:  {
+                        name:'JNTU MATERIAL',
+                        des:'DOWNLOAD JNTU ANANRAPUR R20 CN MATERIAL HERE',
+                        link:'https://drive.google.com/file/d/1kZ4EP1_9EEIQ27tx1GtpImrks5dVD59C/view?usp=sharing'
+                      },
+                      UNIT1:{
+                        name:'UNIT 1',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN SECOND UNIT MATERIAL HERE',
+                        link:'https://drive.google.com/file/d/1zZ3_SGJ5SY5VwF5tnl4Kn7NL3HNmKWi2/view?usp=drive_link'
+                      },
+                      UNIT2:{
+                        name:'UNIT 1',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN SECOND UNIT MATERIAL HERE',
+                        link:'https://drive.google.com/file/d/1zZ3_SGJ5SY5VwF5tnl4Kn7NL3HNmKWi2/view?usp=drive_link'
+                      },
+                      UNIT2:{
+                        name:'UNIT 1',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN SECOND UNIT MATERIAL HERE',
+                        link:'https://drive.google.com/file/d/1zZ3_SGJ5SY5VwF5tnl4Kn7NL3HNmKWi2/view?usp=drive_link'
+                      },
+                      UNIT3:{
+                        name:'UNIT 1',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN SECOND UNIT MATERIAL HERE',
+                        link:'https://drive.google.com/file/d/1zZ3_SGJ5SY5VwF5tnl4Kn7NL3HNmKWi2/view?usp=drive_link'
+                      },
+                      UNIT4:{
+                        name:'UNIT 1',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN SECOND UNIT MATERIAL HERE',
+                        link:'https://drive.google.com/file/d/1zZ3_SGJ5SY5VwF5tnl4Kn7NL3HNmKWi2/view?usp=drive_link'
+                      },
+                      UNIT5:{
+                        name:'UNIT 1',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN SECOND UNIT MATERIAL HERE',
+                        link:'https://drive.google.com/file/d/1zZ3_SGJ5SY5VwF5tnl4Kn7NL3HNmKWi2/view?usp=drive_link'
+                      },
+                      REFM:{
+                        name:'UNIT 1',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN SECOND UNIT MATERIAL HERE',
+                        link:'https://drive.google.com/file/d/1zZ3_SGJ5SY5VwF5tnl4Kn7NL3HNmKWi2/view?usp=drive_link'
+                      },
+                      MANUAL:{
+                        name:'UNIT 1',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN SECOND UNIT MATERIAL HERE',
+                        link:'https://drive.google.com/file/d/1zZ3_SGJ5SY5VwF5tnl4Kn7NL3HNmKWi2/view?usp=drive_link'
+                      },
+                      TB1:{
+                        name:'UNIT 1',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN SECOND UNIT MATERIAL HERE',
+                        link:'https://drive.google.com/file/d/1zZ3_SGJ5SY5VwF5tnl4Kn7NL3HNmKWi2/view?usp=drive_link'
+                      },
+                      TB2:{
+                        name:'UNIT 1',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN SECOND UNIT MATERIAL HERE',
+                        link:'https://drive.google.com/file/d/1zZ3_SGJ5SY5VwF5tnl4Kn7NL3HNmKWi2/view?usp=drive_link'
+                      },
+                      REFB:{
+                        name:'UNIT 1',
+                        des:'DOWNLOAD JNTUANANRAPUR R20 CN SECOND UNIT MATERIAL HERE',
+                        link:'https://drive.google.com/file/d/1zZ3_SGJ5SY5VwF5tnl4Kn7NL3HNmKWi2/view?usp=drive_link'
+                      }          
+                }
+    }
+  ]
+//   subjects.forEach(value =>{
+//             let myass = value.assets
+//             // myass.forEach(myval=>
+//             // {
+//             //     console.log(myval)
+//             // })
+//             console.log(myass)
+//     })
+subjects.forEach((course) => {
+  const assets = course.assets;
+  Object.keys(assets).forEach((assetKey) => {
+    const asset = assets[assetKey];
+    console.log(`Asset Name: ${asset.name}`);
+    console.log(`Description: ${asset.des}`);
+    console.log(`Link: ${asset.link}`);
+    console.log('---');
+  });
+});
+
+    </script>
+</body>
+</html>
